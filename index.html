@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+   <header>
+     <div class="logo">
+         <a target="_blank" href="https://www.aluracursos.com/"><img src="img/Logov1.svg" alt="Logotipo de Alura"></a>
+         <h1 class="titulo">Challenge Alura || Encriptador de Texto </h1>
+      </div>
+ </header>
+    <main class="contenedor">
+     <section class="inText">
+         <div class="rules">
+             <ul>
+                 <h3>Condiciones de uso</h3>
+                 <li>Solo se admiten letras en minisculas.</li>
+                 <li>No se admiten acentos.</li>
+                 <li>No se admiten caracteres especiales.</li>
+             </ul>
+         </div>
+         <form action="">
+             <textarea autofocus placeholder="Empiece a escribir el texto a cifrar" name="area" id="area" cols="30" rows="10"></textarea>
+         </form>
+         <section class="botones">
+             <input class="btn1" type="button" value="Encriptar">
+             <input class="btn2" type="button" value="Desencriptar">
+         </section>
+     </section>
+     <aside class="outText">
+         <img id="muneco" src="img/Muñeco.svg" alt="">
+         <form action="">
+             <label id="encriptado" for="area1">Texto Encriptado</label>
+             <textarea name="area1" id="area1" cols="30" rows="10"></textarea>
+         </form>
+         <p id="notfound"><strong>Ningún mensaje fue encontrado</strong></p>
+         <p id="ingresa">Ingresa el texto que desees encriptar o desencriptar.</p>
+         <input id="btn3" type="button" value="Copiar">
+     </aside>
+   </main>
+    <footer>
+        <h2>© 2024 Todos los derechos reservados || Luis Miguel Valencia Goznalez</h2>
+        <div class="redes">
+           <div class="elem"><a target="_blank" href="https://github.com/lDanteZ"><img id="github" src="img/github.svg" alt="Link de Github"></a></div>
+           <div class="elem"><a target="_blank" href="https://www.linkedin.com/in/luis-miguel-valencia-gonzalez-9900aa2ab/"><img id="linkedln" src="img/linkedin.svg" alt="Link de linkedln"></a></div>
+        </div>
+    </footer>
+    <script src="js/encoder.js"></script>
+</body>
+</html>
