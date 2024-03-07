@@ -5,7 +5,7 @@
 }
 body{
     font-family: cursive;
-    background-color: #98e9d0;
+    background-color: #98d2e9;
     font-size: 14px;
     width: 100%;
 }
@@ -124,7 +124,7 @@ top: -10px;
     transform: scale(1.01);
 }
 footer{
-    background: lightgray;
+    background: rgba(32, 65, 198, 0.705);
     margin: 2%;
     border-radius: 20px;
     height: auto;
